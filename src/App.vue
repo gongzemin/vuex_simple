@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-import Parent from "./components/Parent"
+import HelloWorld from './components/HelloWorld'
+import Parent from './components/Parent'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     HelloWorld,
     Parent
   }
-};
+}
 </script>
 
 <style>
