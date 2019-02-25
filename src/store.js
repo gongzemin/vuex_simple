@@ -14,13 +14,5 @@ export default new Vuex.Store({
     changeChildText (state, str) {
       state.childText = str
     }
-  },
-  actions: {
-    increment(context) {
-      context.commit('changeTestMsg');
-    },
-    decrement(context) {
-      context.commit('changeChildText');
-    }
   }
 })
