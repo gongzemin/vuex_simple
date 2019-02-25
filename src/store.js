@@ -16,11 +16,11 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    increment(context) {
-      context.commit('changeTestMsg');
+    changeTestMsg(context, str) {
+      context.commit('changeTestMsg', str)
     },
-    decrement(context) {
-      context.commit('changeChildText');
+    changeChildText(context, str) {
+      context.commit('changeChildText', str)
     }
   }
 })

@@ -22,10 +22,10 @@ export default {
   },
   methods: {
     clickHandler () {
-      this.$store.commit('changeTestMsg', '父组件修改自己后的文本')
+      this.$store.dispatch('changeTestMsg', '父组件修改自己后的文本')
     },
     clickHandler2 () {
-      this.$store.commit('changeChildText', '父组件修改子组件后的文本')
+      this.$store.dispatch('changeChildText', '父组件修改子组件后的文本')
     }
   }
 
